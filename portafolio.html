@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e91c429c2d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/74d6ebe007.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<body>
+        <header>
+            <img  class="logo" src="img/logo.webp" alt="Logo">
+            <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-list">
+                    <li>
+                        <a class="x" href="index.html">HOME</a>
+                    </li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="portafolio.html">PORTAFOLIO</a></li>
+                    <li><a href="aerobic.html">SERVICES <i class="fa-sharp fa-solid fa-angle-down" style="color: #817f8a;"></i></a>
+                        <ul>
+                            <li><a href="aerobic.html"">AEROBIC</a></li>
+                                <li><a href=""">CROSSFIT</a></li>
+                            <li><a href=""">FITNESS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href=" #">TEAM <i class="fa-sharp fa-solid fa-angle-down" style="color: #817f8a;"></i></a>
+                                <ul>
+                                    <li><a href=""">KAYLEIGH ROBERTS</a></li>
+                                <li><a href=""">KYLIE PINEHEILL</a></li>
+                                    <li><a href=""">REBECA HOLL</a></li>
+                                <li><a href=""">NIKKIE SMITH</a></li>
+                                    <li><a href=""">ROVENA NILLS</a></li>
+                                <li><a href=""">PETYR NOLAN</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">PRICING</a></li>
+                            <li><a href="#">CONTAC</a></li>
+                        </ul>
+            </nav>
+            <div class="icon-container">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i1 class=1 "fa-solid fa-pipe">|</i1>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-unlock-keyhole"></i>
+                <i class="fa-regular fa-user"></i>
+        </header>
+        <script src="js/main.js"></script>
+
+
+        <div class="tx-inicial">
+            <h2>Portafolio</h2><br>
+            <h3 class="home">HOME</h3><span>| PORTAFOLIO</span>
+        </div>
+
+
+        <!--novena parte galeria-->
+        <div class="contenedor9">
+            <div class="galeria">
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery1.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery2.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery3.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery4.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery5.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery6.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery7.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+                <div class="foto">
+                    <img class="img-hover" src="img/fitness_gallery8.jpg" alt="1">
+                    <div class="oculto">
+                        <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                    </div>
+                </div>
+        
+        
+        
+                <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+                    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        
+                <script>
+                    $(document).ready(function () {
+
+                        $('.foto').hover(function () {
+                            $(this).find('.oculto').fadeIn();
+                            $(this).find('.img-hover').addClass('agrandar');
+                        }, function () {
+                            $(this).find('.oculto').fadeOut(); $(this).find('.img-hover').removeClass('agrandar');
+                        })
+
+                    })
+                </script>
+
+
+
+        
+            </div>
+        </div>
+
+
+            <div class="footer">
+                <img class="logof" src="img/footer-logo.webp" alt="logo">
+                <div class="tx-footer">
+                    <span class="home">HOME</span>
+                    <span>SERVICE</span>
+                    <span>SHOP</span>
+                    <span>TEAM</span>
+                    <span>MEMBERS</span>
+                    <span>PORTFOLIO</span>
+                </div>
+                <div class="iconof">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-solid fa-pipe"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-pipe"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-solid fa-pipe"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="Zemez">
+                    <span class="z">Zemez</span><span> ©. All rights reserved.</span>
+                </div>
+            </div>
+</body>
+</html>
